@@ -1,0 +1,73 @@
+
+html {
+    position: relative;
+    min-width: 320px;
+    min-height: 568px;
+    height: 100%;
+}
+body {
+    background-image: url(../images/field2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.app {
+    background: url(../images/field2.jpg) no-repeat center top; 
+    position: absolute;             
+    left: 50%;
+    top: 50%;
+    height: 50px;                  
+    width: 225px;                   
+    text-align: center;
+    padding: 180px 0px 0px 0px;     
+    margin: -115px 0px 0px -112px;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;
+        margin:-90px 0px 0px -198px;
+    }
+}
+h1 {
+    color: #F90B6D; 
+    font-family: Comic Sans MS, sans-serif;      
+    font-size: 45px;
+    font-weight: 300; 
+    line-height: 40px; 
+    margin: 0 0 16px; 
+    text-align: center;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+    margin-right:15%;
+    width: 50%; 
+    position: absolute;       
+    bottom: 0;
+      
+}
+button {
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Comic Sans MS;
+  color: #bd15bd;
+  font-size: 45px;
+  background: #3498db;
+  padding: 10px 30px 10px 30px;
+  border: solid #1bced4 3px;
+  text-decoration: none;   
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
